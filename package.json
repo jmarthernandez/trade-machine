@@ -1,0 +1,53 @@
+{
+  "name": "trade-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --progress --colors --watch",
+    "dev": "webpack-dev-server --content-base ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmarthernandez/trade-machine.git"
+  },
+  "author": "Justin Hernandez <jmarthernandez@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmarthernandez/trade-machine/issues"
+  },
+  "homepage": "https://github.com/jmarthernandez/trade-machine#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
+    "material-ui": "^0.18.6",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dnd": "^2.4.0",
+    "react-dnd-html5-backend": "^2.4.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.7.1"
+  }
+}

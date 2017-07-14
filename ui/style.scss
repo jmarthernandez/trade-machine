@@ -1,0 +1,14 @@
+.selected-team-header {
+  text-align: left;
+}
+
+.collection {
+  max-height: 450px;
+  overflow-y: scroll;
+  .collection-item {
+    padding: 12px;
+    span {
+      margin: 4px;
+    }
+  }
+}
